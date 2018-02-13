@@ -1,6 +1,6 @@
 import React from "react";
 import { Provider } from "react-redux";
-import { createStore, applyMiddleware } from "redux";
+import { createStore } from "redux";
 import DevTools from './DevTools';
 import reducer from "./reducer.js";
 import ReactDOM from "react-dom";

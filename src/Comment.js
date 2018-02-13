@@ -1,3 +1,4 @@
+/*eslint-disable no-unused-vars*/
 import React from "react";
 import { thumbUpComment } from "./actions.js";
 import { thumbDownComment } from "./actions.js";

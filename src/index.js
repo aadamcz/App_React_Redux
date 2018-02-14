@@ -17,5 +17,8 @@ ReactDOM.render(
 	document.getElementById("root")
 );
 
+//dispatch - wysyłanie informacji o akcji do store. 
+//argumentem jest kreator akcji
+
 store.dispatch(addComment("pierwszy komentarz "));
 store.dispatch(addComment("drugi komentarz "));
